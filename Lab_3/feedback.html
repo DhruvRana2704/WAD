@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        div{
+            display: flex;
+            flex-direction: column;
+            margin-left:35% ;
+            height: 40vh;
+            width: 30%;
+            padding: 1rem;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFB703;
+            margin-top: 10vh;
+           }
+           input{
+            background-color:  rgb(238, 227, 227);
+            padding: 0.3rem;
+            border-radius:8px ;
+            border: 0;
+            align-items: center;
+        }
+        select{
+            border-radius: 5px;
+        }
+        textarea{
+               background-color:  rgb(238, 227, 227);
+            border-radius: 8px;
+            border:0;
+            padding:0.3rem
+           }
+    </style>
+</head>
+<body bgcolor="#219EBC" text="023047">
+    <div>
+        <h2 style="color: #023047; display:flex; justify-content:center;">Feedback Form</h2>
+    <form action="query.html">
+    <label for="name">Full Name:</label>
+    <input type="text">
+    <br>
+    <br>
+    <label for="email">E-mail:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="email" placeholder="example@email.com">
+    <br>
+    <br>
+    <label for="feedback">Enter Feedback:</label>
+    <br>
+    <textarea name="feedback"  rows="1" cols="31" id="" placeholder="Enter your feedback here!"></textarea>
+    <br>
+    <br>
+    <input type="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset">
+    </form>
+    </div>
+</body>
+</html>
